@@ -1,7 +1,7 @@
 .home {
-	background-image: none;
-  background-size:cover;
-  background-position:bottom;
+	background-image: url('../assets/pistopromo.gif');
+  	background-size:cover;
+  	background-position:bottom;
 	height: 100vh;
   }
   @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@500&display=swap');
