@@ -1,0 +1,13 @@
+.image{
+    height: 300px;
+}
+.h-80{
+    width: 300px;
+}
+.container{
+    padding-top: 25px;
+}
+.layout{
+    height: 100vh;
+    vertical-align: middle;
+}

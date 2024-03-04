@@ -1,0 +1,62 @@
+.home {
+    background-image: url('../assets/pistopromo.gif');
+    background-size:cover;
+    background-position:bottom;
+	height: 100vh;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+.Blazing {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	color: gold;
+	height:80%;
+	font-family: 'Protest Revolution';
+	min-width: 50px;
+	outline: none;
+	vertical-align: middle;
+	text-shadow:        0 3px 5px red,        0 0 7px red,		0 0 5px orange;
+}
+@media screen and (max-width:450px) {
+	.Countdown-col-element{
+		display: inline-block;
+		margin: 0 10px;
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+	  }
+	  
+	  .Countdown-col-element strong{
+		font-size: 40px;
+		color:cyan;
+		text-shadow:        0 3px 5px blue,        0 0 7px navy,		0 0 5px blueviolet;
+	  }  
+}
+.Countdown{
+	margin: 10px auto;
+	font-family: 'Kode Mono';
+	color: blanchedalmond;
+	padding-bottom: 80px;
+  }
+  .Countdown-col{
+	display: inline-block;
+  }
+@media screen and (min-width:450px) {
+  .Countdown-col-element{
+	display: inline-block;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+  }
+  
+  .Countdown-col-element strong{
+	font-size: 80px;
+	color:cyan;
+	text-shadow:        0 3px 5px blue,        0 0 7px navy,		0 0 5px blueviolet;
+  }  
+}
+.unit{
+	font-size: 30px;
+}  

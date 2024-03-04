@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
+.about, .events, .sponsors,.contacts,.tame{
+    background: url("https://wallpapers-hub.art/wallpaper-images/13322.jpg");
+    background-size:cover;
+    background-position: center;
+    height:100%;
+}
+.team{
+  background: url("https://wallpapers-hub.art/wallpaper-images/13322.jpg");
+  background-size:cover;
+  background-position: center;
+  height:87.95vh;
+}
+@media screen and (max-width:768px) {
+  .team{
+    height:200vh;
+  }  
+}
+.logo {
+    text-align: center;
+    position: center;
+  }
+  @media screen and (max-width:450px) {
+    .logo b{
+      font: 5vh "Kalam";
+      font-size: 50px;
+      color: #fee;
+      text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    }
+  }
+  @media screen and (min-width:450px) {
+    .logo b{
+      font: 100 9vh "Kalam";
+      color: #fee;
+      text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    }
+  }
+  .logo b span{
+    animation: blink linear infinite 1s;
+    -webkit-animation: blink linear infinite 1s;
+}
+  .logo b span:nth-of-type(2){
+    animation: blink linear infinite 2s;
+    -webkit-animation: blink linear infinite 2s;
+}
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
