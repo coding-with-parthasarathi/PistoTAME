@@ -24,7 +24,7 @@ jobs:
         node-version: 18
     
     - name: Install NPM packages
-      run: npm ci
+      run: npm ci --force
     
     - name: Build website
       run: npm run build
