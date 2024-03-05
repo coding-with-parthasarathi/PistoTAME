@@ -49,11 +49,11 @@ const Events = () => {
 						<div className='list'>
 						<li><a id='link' href="https://drive.google.com/file/d/11rrXsDpJ75xcQRytfl6hzJPJKmoO1q5R/view?usp=sharing">EPC Project Design</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1pE5n-Wbh_OqxFhssqaTq9IQw8JP19qvo/view?usp=sharing">Rapid Prototyping</a></li>
-						<li><a id='link' href="https://drive.google.com/file/d/1TxqVaFG4OaL3zjinYHItZ46q0BqWZVFY/view?usp=sharing">Go Kart</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1EVU0a3m0ciw8exzg5HRKLaTyc92pj6wH/view?usp=sharing">Go Kart</a></li>
 						</div>	
 						<div className='list2'>
 						<li><a id='link' href="https://drive.google.com/file/d/14YT68-U8X_9x5JLy_4A6ODQuMaDXmkyH/view?usp=sharing">Robo Studio & <br/>Robotic Jogging/Welding</a></li>
-						<li><a id='link' href="#">Industrial Automation <br/>using PLC</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1JRM6HX3_bqK9B1CnODc-4_BgoazvLEgI/view?usp=sharing">Industrial Automation <br/>using PLC</a></li>
 						</div>
 						</ol>
 						</CCardText>
