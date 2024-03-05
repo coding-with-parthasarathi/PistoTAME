@@ -1,6 +1,8 @@
 .grid{
     margin: 75px;
-    width:610px;
+    width:100%;
+    max-width: 610px;
+    min-height: 310px;
 }
 .title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
