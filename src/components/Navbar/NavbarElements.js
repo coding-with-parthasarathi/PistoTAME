@@ -54,7 +54,4 @@ export const NavMenu = styled.div`
 	/* Second Nav */
 	/* margin-right: 24px; */
 	/* Third Nav */
-	@media screen and (max-width: 1370px) {
-		display: none;
-	}
 `;

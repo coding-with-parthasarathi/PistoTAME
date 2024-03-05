@@ -1,7 +1,7 @@
 // components/Navbar/index.js
 import './index.css';
 import React from "react";
-import MediaQuery from 'react-responsive';
+import { useMediaQuery } from 'react-responsive';
 import { CDropdown,CDropdownToggle, CDropdownItem,CDropdownMenu} from '@coreui/react';
 import pb from './logo.gif';
 import tame from './tame.png';
@@ -14,11 +14,12 @@ import {
 } from "./NavbarElements";
 
 const Navbar = () => {
+	const isMobile = useMediaQuery({ maxWidth: 1370 });
 	return (
 		<>
-			<MediaQuery maxDeviceWidth={1370}>
-			<Nav style={{position:'fixed', width:'100vw', justifyContent: 'space-around'}}>
-			<CDropdown>
+			{isMobile ? (
+			<Nav className="navbar-expand-lg" style={{position:'fixed', width:'100vw', justifyContent: 'space-between'}}>
+			<CDropdown style={{paddingLeft:'40px'}}>
 				<CDropdownToggle color='black'><Bars/></CDropdownToggle>
 				<CDropdownMenu style={{backgroundColor:'black', textAlign:'center'}}>
 				<NavLink to="/home" style={{textAlign:'center'}}>
@@ -44,7 +45,7 @@ const Navbar = () => {
 					</NavLink>
 				</CDropdownMenu>
 				</CDropdown>
-				<CDropdown style={{height:'60px', paddingTop:'20px'}}>
+				<CDropdown style={{height:'60px', paddingTop:'20px', paddingRight:'20px'}}>
 				<link rel="preconnect" href="https://fonts.googleapis.com"/>
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 				<link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
@@ -55,9 +56,8 @@ const Navbar = () => {
 					</CDropdownMenu>
 			</CDropdown>
 				</Nav>	
-				</MediaQuery>
-			<MediaQuery minDeviceWidth={1371}>
-			<Nav navbar-expand-lg navbar-light>
+			) : (
+			<Nav className="navbar-expand-lg">
 				<NavMenu>
 					<NavLink to="/home">
 						<img src={pb} alt='pb' height='85px'/>
@@ -92,7 +92,7 @@ const Navbar = () => {
 					</NavLink>
 				</NavMenu>
 			</Nav>
-			</MediaQuery>
+			)}
 		</>
 	);
 };
