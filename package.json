@@ -2,7 +2,7 @@
   "name": "pistoboltz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pistoboltz.co.in",
+  "homepage": "https://coding-with-parthasarathi.github.io/pistoTame",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@coreui/coreui": "^4.3.2",
