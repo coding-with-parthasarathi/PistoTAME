@@ -35,7 +35,7 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
 	display: none;
 	color: white;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1370px) {
 		display: block;
 		float: right;
 		position: absolute;
@@ -54,7 +54,7 @@ export const NavMenu = styled.div`
 	/* Second Nav */
 	/* margin-right: 24px; */
 	/* Third Nav */
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1370px) {
 		display: none;
 	}
 `;

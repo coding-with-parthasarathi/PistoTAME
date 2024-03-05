@@ -16,22 +16,12 @@ import {
 const Navbar = () => {
 	return (
 		<>
-			<MediaQuery maxDeviceWidth={450}>
-			<Nav style={{float:'right'}}>
-			<CDropdown style={{paddingRight:'40px', height:'60px', paddingTop:'20px'}}>
-				<link rel="preconnect" href="https://fonts.googleapis.com"/>
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-				<link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
-					<CDropdownToggle color='warning' style={{fontFamily:'Kode Mono', fontSize:'17.5px', color:'black'}}>Register</CDropdownToggle>
-					<CDropdownMenu>
-						<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSc3zESJSABkjQszE6G8kbf_zU1ZAP3-ZV_A-nSoDFLprFsrmw/viewform">Events</CDropdownItem>
-						<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSfCRjvelgLIWtuww32OcJlopjmBNhnEYzbjpHLbzzFO212CXA/viewform">Workshops</CDropdownItem>
-					</CDropdownMenu>
-			</CDropdown>
+			<MediaQuery maxDeviceWidth={1370}>
+			<Nav style={{position:'fixed', width:'100vw', justifyContent: 'space-around'}}>
 			<CDropdown>
 				<CDropdownToggle color='black'><Bars/></CDropdownToggle>
-				<CDropdownMenu style={{backgroundColor:'black'}}>
-				<NavLink to="/home">
+				<CDropdownMenu style={{backgroundColor:'black', textAlign:'center'}}>
+				<NavLink to="/home" style={{textAlign:'center'}}>
 						Home
 					</NavLink>
                     <NavLink to="/about" >
@@ -54,9 +44,20 @@ const Navbar = () => {
 					</NavLink>
 				</CDropdownMenu>
 				</CDropdown>
+				<CDropdown style={{height:'60px', paddingTop:'20px'}}>
+				<link rel="preconnect" href="https://fonts.googleapis.com"/>
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+				<link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
+					<CDropdownToggle color='warning' style={{fontFamily:'Kode Mono', fontSize:'17.5px', color:'black', borderRadius:'6px'}}>Register</CDropdownToggle>
+					<CDropdownMenu>
+						<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSc3zESJSABkjQszE6G8kbf_zU1ZAP3-ZV_A-nSoDFLprFsrmw/viewform">Events</CDropdownItem>
+						<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSfCRjvelgLIWtuww32OcJlopjmBNhnEYzbjpHLbzzFO212CXA/viewform">Workshops</CDropdownItem>
+					</CDropdownMenu>
+			</CDropdown>
 				</Nav>	
 				</MediaQuery>
-			<Nav>
+			<MediaQuery minDeviceWidth={1371}>
+			<Nav navbar-expand-lg navbar-light>
 				<NavMenu>
 					<NavLink to="/home">
 						<img src={pb} alt='pb' height='85px'/>
@@ -80,7 +81,7 @@ const Navbar = () => {
 					<link rel="preconnect" href="https://fonts.googleapis.com"/>
 					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 					<link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet"/>
-						<CDropdownToggle color='warning' style={{fontFamily:'Kode Mono', fontSize:'17.5px', color:'black'}}>Register</CDropdownToggle>
+						<CDropdownToggle color='warning' style={{fontFamily:'Kode Mono', fontSize:'17.5px', color:'black', borderRadius:'6px'}}>Register</CDropdownToggle>
 						<CDropdownMenu>
 							<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSc3zESJSABkjQszE6G8kbf_zU1ZAP3-ZV_A-nSoDFLprFsrmw/viewform">Events</CDropdownItem>
 							<CDropdownItem href="https://docs.google.com/forms/d/e/1FAIpQLSfCRjvelgLIWtuww32OcJlopjmBNhnEYzbjpHLbzzFO212CXA/viewform">Workshops</CDropdownItem>
@@ -91,6 +92,7 @@ const Navbar = () => {
 					</NavLink>
 				</NavMenu>
 			</Nav>
+			</MediaQuery>
 		</>
 	);
 };
