@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pistoTame/static/css/main.cd402063.css",
-    "main.js": "/pistoTame/static/js/main.93a82af2.js",
+    "main.js": "/pistoTame/static/js/main.76fb128d.js",
     "static/js/453.619fc3a9.chunk.js": "/pistoTame/static/js/453.619fc3a9.chunk.js",
     "static/media/pistopromo.gif": "/pistoTame/static/media/pistopromo.6e769a25ac93826c1afa.gif",
     "static/media/logo.gif": "/pistoTame/static/media/logo.69fcbdfca84f659750ce.gif",
@@ -26,11 +26,11 @@
     "static/media/sabari.png": "/pistoTame/static/media/sabari.bd5258963b04bfaf3133.png",
     "index.html": "/pistoTame/index.html",
     "main.cd402063.css.map": "/pistoTame/static/css/main.cd402063.css.map",
-    "main.93a82af2.js.map": "/pistoTame/static/js/main.93a82af2.js.map",
+    "main.76fb128d.js.map": "/pistoTame/static/js/main.76fb128d.js.map",
     "453.619fc3a9.chunk.js.map": "/pistoTame/static/js/453.619fc3a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd402063.css",
-    "static/js/main.93a82af2.js"
+    "static/js/main.76fb128d.js"
   ]
 }
