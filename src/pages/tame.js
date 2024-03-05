@@ -1,9 +1,11 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './neon.css';
 import pic1 from './pic1.png';
 import pic2 from './pic2.png';
 import pic3 from './pic3.png';
 const Tame = () => {
+	const isMobile = useMediaQuery({ maxWidth: 1000 });
 	return (
 		<div className='tame'
 			style={{
@@ -25,11 +27,17 @@ symposium was conducted which benefited the
 association members and the people who participated
 in it through the exposure to the latest technologies
 available in the college facility.
+		{isMobile ? (
+		<div style={{display: "flex", flexDirection: "column",  padding: "20px", justifyContent: 'space-evenly', alignItems: 'center', whiteSpace:'10px'}}>
+		<img src={pic1} alt='pic1' height='350px' />
+		<img src={pic2} alt='pic2' height='350px'/>
+		<img src={pic3} alt='pic3' height='350px'/>
+		</div>):(
 		<div style={{display: "flex", flexDirection: "row",  padding: "20px", justifyContent: 'space-evenly', alignItems: 'center', whiteSpace:'10px'}}>
 		<img src={pic1} alt='pic1' height='350px' />
 		<img src={pic2} alt='pic2' height='350px'/>
 		<img src={pic3} alt='pic3' height='350px'/>
-		</div>
+		</div>)}
 		</center>	
 		</div>
 	);
