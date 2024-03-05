@@ -10,8 +10,8 @@ const About = () => {
 			style={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "centre",
-				alignItems: "centre"
+				justifyContent: "center",
+				alignItems: "center"
 			}}
 		>
 			<link rel="preconnect" href="https://fonts.googleapis.com"/>

@@ -6,8 +6,8 @@ const Sponsors = () => {
 			style={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "centre",
-				alignItems: "centre"
+				justifyContent: "center",
+				alignItems: "center"
 			}}
 		>
 			<div class="logo"><b><span>Spon</span><span>sors</span></b></div>

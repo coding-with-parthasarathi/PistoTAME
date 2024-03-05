@@ -28,8 +28,8 @@ const Teams = () => {
 			style={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "centre",
-				alignItems: "centre"
+				justifyContent: "center",
+				alignItems: "center"
 			}}
 		>
 			<div class="logo"><b><span>Te</span><span>am</span></b></div>

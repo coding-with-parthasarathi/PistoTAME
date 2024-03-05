@@ -9,8 +9,8 @@ const Tame = () => {
 			style={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "centre",
-				alignItems: "centre"
+				justifyContent: "center",
+				alignItems: "center"
 			}}
 		>
 			<div class="logo"><b>The<span> Association</span> of<span> Mechanical Engineers</span></b></div>

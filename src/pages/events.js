@@ -10,12 +10,11 @@ const Events = () => {
 			style={{
 				display: "flex",
 				flexDirection: "column",
-				justifyContent: "centre",
-				alignItems: "centre"
+				justifyContent: "center",
+				alignItems: "center"
 			}}
 		>
 			<div class="logo"><b><span>Events</span> & <span>Workshops</span></b></div>
-			<CRow xs={{ cols: 1, gutter: 3 }} md={{ cols: 2}}>
 				<CCol xs className='grid'>
 					<CCard>
 					<CCardImage orientation="top" src={'https://t4.ftcdn.net/jpg/02/90/56/89/360_F_290568984_FNoCgHBmnUUvzl2qPBL9G4vtIWb06AGB.jpg'} />
@@ -74,7 +73,6 @@ const Events = () => {
 					</CCardImageOverlay>
 					</CCard>
 				</CCol>
-			</CRow>
 		</div>
 	);
 };
