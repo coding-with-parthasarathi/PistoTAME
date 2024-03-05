@@ -6,6 +6,11 @@
     width: 100vw;
 /*    position: fixed;*/
 }
+
+.contacts a{
+    color: rgb(155, 35, 53);
+    text-decoration: none;
+}
 .logo {
     text-align: center;
     padding-top: 100px;
