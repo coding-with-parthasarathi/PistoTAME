@@ -25,13 +25,13 @@ const Events = () => {
 						<div className='list'>
 						<li><a id='link' href="https://drive.google.com/file/d/1CeouBBlZojOmp7e8-ROzrcvrLhcfH2Ac/view?usp=sharing">Mech Connection</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1MeRAe-ecWqFaPm-RngqB81WuLDhXixC-/view?usp=sharing">Design Master</a></li>
-						<li><a id='link' href="#">Business Plan</a></li>
+						<li><a id='link' href="#">Tech Showdown</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1yf7ywepboF5wKYuuv3OectHV-WrK3QTj/view?usp=sharing">TAME Shark Tank</a></li>
 						</div>	
 						<div className='list2'>
 						<li><a id='link' href="https://drive.google.com/file/d/1dOoMF6obRsgLV9I4mnpDJT7Fygs8t7mu/view?usp=sharing">Paper Presentation</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1yf5mdHx3DvWJ1AMTwS9SzHicvnwiFxS-/view?usp=sharing">Line Follower racing</a></li>
-						<li><a id='link' href="#">Robo Soccer</a></li>
+						<li><a id='link' href="#">Robo wrestling</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1LCYKyk2qcBtxkgtjUMUIA4ZiXMJYuVvZ/view?usp=sharing">F1 Quiz</a></li>
                         </div>
                         </ol>
@@ -48,11 +48,11 @@ const Events = () => {
 						<ol>
 						<div className='list'>
 						<li><a id='link' href="https://drive.google.com/file/d/11rrXsDpJ75xcQRytfl6hzJPJKmoO1q5R/view?usp=sharing">EPC Project Design</a></li>
-						<li><a id='link' href="#">Rapid Prototyping</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1pE5n-Wbh_OqxFhssqaTq9IQw8JP19qvo/view?usp=sharing">Rapid Prototyping</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1TxqVaFG4OaL3zjinYHItZ46q0BqWZVFY/view?usp=sharing">Go Kart</a></li>
 						</div>	
 						<div className='list2'>
-						<li><a id='link' href="https://drive.google.com/file/d/1fxuH0BTHrJd_bkUL_Hpxd-Yza0vGunlZ/view?usp=sharing">Robo Studio & <br/>Robotic Jogging/Welding</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/14YT68-U8X_9x5JLy_4A6ODQuMaDXmkyH/view?usp=sharing">Robo Studio & <br/>Robotic Jogging/Welding</a></li>
 						<li><a id='link' href="#">Industrial Automation <br/>using PLC</a></li>
 						</div>
 						</ol>
