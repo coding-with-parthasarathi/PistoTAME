@@ -47,7 +47,7 @@ const Events = () => {
 						<CCardText>
 						<ol>
 						<div className='list'>
-						<li><a id='link' href="https://drive.google.com/file/d/11rrXsDpJ75xcQRytfl6hzJPJKmoO1q5R/view?usp=sharing">EPC Project Design</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1VNUE5p8A2VlTquvlSJz0Z3JPMO2KV8NO/view?usp=sharing">EPC Project Design</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1pE5n-Wbh_OqxFhssqaTq9IQw8JP19qvo/view?usp=sharing">Rapid Prototyping</a></li>
 						<li><a id='link' href="https://drive.google.com/file/d/1EVU0a3m0ciw8exzg5HRKLaTyc92pj6wH/view?usp=sharing">Go Kart</a></li>
 						</div>	
