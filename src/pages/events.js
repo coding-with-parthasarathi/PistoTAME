@@ -23,16 +23,16 @@ const Events = () => {
 						<CCardText>
 						<ol>
 						<div className='list'>
-						<li><a id='link' href="https://drive.google.com/file/d/1CeouBBlZojOmp7e8-ROzrcvrLhcfH2Ac/view?usp=sharing">Mech Connection</a></li>
-						<li><a id='link' href="https://drive.google.com/file/d/1MeRAe-ecWqFaPm-RngqB81WuLDhXixC-/view?usp=sharing">Design Master</a></li>
-						<li><a id='link' href="#">Tech Showdown</a></li>
-						<li><a id='link' href="https://drive.google.com/file/d/1yf7ywepboF5wKYuuv3OectHV-WrK3QTj/view?usp=sharing">TAME Shark Tank</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/18fjypaKnQUJrTUYJSuFCntffZHqn7vyg/view?usp=sharing">Mech Connection</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1CAaoOEwIhHlRwssvnQGg1omusr2IFVU1/view?usp=sharing">Design Master</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1bk6F_nnGDGsBcg5sGW3AhW2H7mVC7tim/view?usp=sharing">Tech Showdown</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1JQxlmHzuZBINNG2zwollkkxWRMGenf5L/view?usp=sharing">TAME Shark Tank</a></li>
 						</div>	
 						<div className='list2'>
-						<li><a id='link' href="https://drive.google.com/file/d/1dOoMF6obRsgLV9I4mnpDJT7Fygs8t7mu/view?usp=sharing">Paper Presentation</a></li>
-						<li><a id='link' href="https://drive.google.com/file/d/1yf5mdHx3DvWJ1AMTwS9SzHicvnwiFxS-/view?usp=sharing">Line Follower racing</a></li>
-						<li><a id='link' href="#">Robo wrestling</a></li>
-						<li><a id='link' href="https://drive.google.com/file/d/1LCYKyk2qcBtxkgtjUMUIA4ZiXMJYuVvZ/view?usp=sharing">F1 Quiz</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/18KRXJ3BCsFKmTVcFN5_M4UK8RAMIHdIi/view?usp=sharing">Paper Presentation</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1Juy1t1ckv0FA3Oi-yNWEIwJaJ0RJgIf3/view?usp=sharing">Line Follower racing</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/10qXg4P7KfmVOyvmRH05c0Zg2FfN3uxUO/view?usp=sharing">Robo wrestling</a></li>
+						<li><a id='link' href="https://drive.google.com/file/d/1WpIxBtepIB7nbxicZOb8Fm5COEWOicRZ/view?usp=sharing">F1 Quiz</a></li>
                         </div>
                         </ol>
                         </CCardText>
