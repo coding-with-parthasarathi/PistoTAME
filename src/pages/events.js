@@ -15,7 +15,7 @@ const Events = () => {
 			}}
 		>
 			<div class="logo"><b><span>Events</span> & <span>Workshops</span></b></div>
-				<CCol xs className='grid'>
+				<CCol xs={12} md={6} className='grid'>
 					<CCard>
 					<CCardImage orientation="top" src={'https://t4.ftcdn.net/jpg/02/90/56/89/360_F_290568984_FNoCgHBmnUUvzl2qPBL9G4vtIWb06AGB.jpg'} />
 					<CCardImageOverlay>
@@ -65,7 +65,7 @@ const Events = () => {
 					<CCardImage orientation="top" src={'https://images.thequint.com/thequint%2F2020-02%2Fbe7cd804-b429-474e-8236-87cbb816b98b%2FMaruti_Futuro_e.jpg'} />
 					<CCardImageOverlay>
 						<CCardTitle className='title'>Auto Expo</CCardTitle>
-						<CCardText style={{color:'gold', fontSize:'larger', textAlign:'center', paddingTop:'30px'}}>
+						<CCardText className='custom-card-text'>
 						Auto Expo is one of the MIT’s premier auto shows. A signature event, that witness the best minds coming
 						together on a single platform to showcases all that is best in the automotive world Previous editions of 
 						Pistoboltz witnessed some of the lauded automobiles like Rolls royce,Mustang GT,Lexus, and much more
